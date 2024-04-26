@@ -1,6 +1,6 @@
 # FPGA IDE
 
-时间: 2024.03.10
+FPGA IDE 安装
 
 ## 选择IDE
 
@@ -20,7 +20,7 @@
 
 ### 注意事项
 
-1. 截至到当前，vivado安装依赖libcrypt.so.1、libncurses.so.5和libtinfo.so.5，需要运行如下命令查看当前系统是否具有链接库文件。
+1. 截至到当前（2023.2），Vivado安装依赖libcrypt.so.1、libncurses.so.5和libtinfo.so.5，需要运行如下命令查看当前系统是否具有链接库文件。
 
    ```bash
    whereis libcrypt.so.1 libncurses.so.5 libtinfo.so.5
@@ -52,10 +52,10 @@
    [rhel-2@rhel-2 ~]$ ./Documents/FPGAs_AdaptiveSoCs_Unified_2023.2_1013_2256/xsetup
    ```
 
-2. 如图所示，可选择"vitis"和"vivado"
+2. 如图所示，可选择"Vitis"和"Vivado"。2023.2中，"Vivado ML Standard"的devices中不再包含（VCU118），只能选择"Vivado ML Enterprise"或者"Vitis"，"Vivado ML Enterprise"需要购买许可证
   ![select_product](images/ide_install/select_product.png)
 
-3. 如果所示，可保持默认或者根据需要选择。
+3. 如果所示，可保持默认或者根据需要选择（UltraScale+必须选择）
    ![custom_installation](images/ide_install/customize_installation.png)
 
 4. 最后，选择安装位置（注意磁盘容量）
