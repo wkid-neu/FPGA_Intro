@@ -62,9 +62,17 @@ FPGA IDE 安装
 
 ## 安装后操作
 
-对于Vitis，安装完毕后，根据官方文档，还需进行如下操作：
+1. 对于Vitis，安装完毕后，根据官方文档，还需进行如下操作：
 
-```bash
-[rhel-2@rhel-2 ~]$ cd ./xilinx/Vitis/2023.2/scripts/
-[rhel-2@rhel-2 scripts]$ sudo ./installLibs.sh
-```
+   ```bash
+   [rhel-2@rhel-2 ~]$ cd ./xilinx/Vitis/2023.2/scripts/
+   [rhel-2@rhel-2 scripts]$ sudo ./installLibs.sh
+   ```
+
+2. 对于Vivado，需要安装烧录driver
+
+   ```bash
+   ubuntu-1@ubuntu-1:$ cd xilinx/Vivado/2023.2/data/xicom/cable_drivers/lin64/install_script/install_drivers/
+   ubuntu-1@ubuntu-1:$ sudo ./install_drivers
+   ubuntu-1@ubuntu-1:$ sudo ./install_digilent.sh
+   ```
