@@ -53,7 +53,7 @@ FPGA IDE 安装
    ```
 
 2. 如图所示，可选择"Vitis"和"Vivado"。2023.2中，"Vivado ML Standard"的devices中不再包含（VCU118），只能选择"Vivado ML Enterprise"或者"Vitis"，"Vivado ML Enterprise"需要购买许可证
-  ![select_product](images/ide_install/select_product.png)
+   ![select_product](images/ide_install/select_product.png)
 
 3. 如果所示，可保持默认或者根据需要选择（UltraScale+必须选择）
    ![custom_installation](images/ide_install/customize_installation.png)
