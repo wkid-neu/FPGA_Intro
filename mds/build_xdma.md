@@ -7,12 +7,12 @@ XDMA用于FPGA和主机之间通过PCIE传输数据
 
 [xdma github](https://github.com/Xilinx/dma_ip_drivers)如下所示：
 
-![dma_ip_drivers](images/build_xdma/dma_ip_drivers.png "dma_ip_drivers")
+![dma_ip_drivers](../images/build_xdma/dma_ip_drivers.png "dma_ip_drivers")
 
 ## Build
 
 在dma_ip_drivers/XDMA/linux-kernel下有一个readme.txt，按照文件教程build  
-![xdma_build](images/build_xdma/xdma_build.png)
+![xdma_build](../images/build_xdma/xdma_build.png)
 
 ### 提示
 

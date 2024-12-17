@@ -15,7 +15,7 @@ FPGA IDE 安装
 
 在浏览器搜索 "xilinx vivado download" ，进入如下图所示的网页。"Web Installer"在安装时需要联网，边下载边安装。"TAR/GZIP"结尾的为压缩包，下载体积较大，下载完成后解压安装。
 
-![vivado_download](images/ide_install/download_vivado.png)
+![vivado_download](../images/ide_install/download_vivado.png)
 
 ## 安装
 
@@ -27,7 +27,7 @@ FPGA IDE 安装
    whereis libcrypt.so.1 libncurses.so.5 libtinfo.so.5
    ```
 
-   ![whereis_so](images/ide_install/whereis_so.png)
+   ![whereis_so](../images/ide_install/whereis_so.png)
 
    如果没有:
 
@@ -55,11 +55,11 @@ FPGA IDE 安装
 
 2. 如图所示，可选择"Vitis"和"Vivado"。2023.2中，"Vivado ML Standard"的devices中不再包含（VCU118），只能选择"Vivado ML Enterprise"或者"Vitis"，"Vivado ML Enterprise"需要购买许可证
 
-   ![select_product](images/ide_install/select_product.png)
+   ![select_product](../images/ide_install/select_product.png)
 
 3. 如果所示，可保持默认或者根据需要选择（UltraScale+必须选择）
 
-   ![custom_installation](images/ide_install/customize_installation.png)
+   ![custom_installation](../images/ide_install/customize_installation.png)
 
 4. 最后，选择安装位置（注意磁盘容量）
 
